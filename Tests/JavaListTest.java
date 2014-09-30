@@ -7,7 +7,9 @@ public class JavaListTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		JavaLint linter = new JavaLint();
+		Boolean result = linter.testStyle();
+		assertTrue(result);
 	}
 
 }
